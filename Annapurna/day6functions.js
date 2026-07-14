@@ -25,13 +25,21 @@ Checks username/password
         ↓
 Shows dashboard*/
 
-function interoduction(){
-    console.log("i am ashish")
-    console.log("i am a Poor progarmmer")
-    console.log("i want to join paraSH");
+// function interoduction(){
+//     console.log("i am ashish")
+//     console.log("i am a Poor progarmmer")
+//     console.log("i want to join paraSH");
     
+// }
+
+// interoduction();
+
+function blahbalh(name,age,profession){
+    console.log("My Name is"+ name);
+    console.log("I am" + age, "years Old")
+    console.log("I am a" + profession);
 }
 
-interoduction();
-
-function 
+blahbalh("Ashish")
+blahbalh(30);
+blahbalh("PARA SF oprator");

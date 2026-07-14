@@ -4,7 +4,7 @@ Create a JavaScript program that simulates a simple e-commerce shopping cart.
 Your program should store customer information, calculate the cart price,
 apply discounts based on conditions, and print the final bill.*/
 
-const customerName = "Komal";
+const customerName = "ashish";
 const isPremiumMember = true;
 
 const productName = "Trekking Shoes";
@@ -16,11 +16,11 @@ let discountPercentage = 0;
 
 
 if (isPremiumMember===true){
-    discountPercentage = 20;
+    discountPercentage = 50;
 }
 
 else if(isPremiumMember!=true && totalPrice>=5000){
-    console.log("Give 10% discont");
+    console.log("Give 50% discont");
 }
 
 else{

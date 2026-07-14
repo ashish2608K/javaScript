@@ -35,11 +35,9 @@ Shows dashboard*/
 // interoduction();
 
 function blahbalh(name,age,profession){
-    console.log("My Name is"+ name);
-    console.log("I am" + age, "years Old")
-    console.log("I am a" + profession);
+    console.log("My Name is " + name);
+    console.log("I am " + age + " years Old")
+    console.log("I am a " + profession);
 }
 
-blahbalh("Ashish")
-blahbalh(30);
-blahbalh("PARA SF oprator");
+blahbalh("komal",29,"Anthropologist")

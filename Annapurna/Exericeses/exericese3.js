@@ -26,7 +26,7 @@ function calculateTicket(age){
     }
 }
 
-const result = calculateTicket(2);
+const result = calculateTicket(20);
 
 console.log(result);
 

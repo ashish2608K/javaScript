@@ -9,8 +9,6 @@ const age = 19;
 const course = "Anthropology";
 const isStudentActive = true;
 
-moniter = "kashish";
-
 const math = 100;
 const english = 100;
 const science = 100;

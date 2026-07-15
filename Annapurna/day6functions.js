@@ -41,3 +41,49 @@ function blahbalh(name,age,profession){
 }
 
 blahbalh("komal",29,"Anthropologist")
+
+// What is return?
+// Simple definition:
+// return sends a value back from a function to the place where the function was called.
+
+
+// Function Expressions & Arrow Functions
+/* 1. Function Expression
+
+Normal function:
+
+function add(a,b){
+    return a+b;
+}
+
+Function expression:
+const add = function(a,b){
+    return a+b;
+};
+Both do the same thing.
+The difference is that now the function is stored inside a variable.*/
+
+
+/*2. Arrow Function (Very important 🔥)
+
+Modern style:
+
+const add = (a,b) => {
+    return a+b;
+};
+
+Same as:
+
+function add(a,b){
+    return a+b;
+}
+Why frontend developers use arrow functions?
+
+Because in React you will write things like:
+
+const Button = () => {
+}
+or:
+const handleClick = () => {
+    console.log("Button clicked");
+}*/

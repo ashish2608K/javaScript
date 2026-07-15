@@ -1,1 +1,1 @@
-const discountAmount = totalPrice
+

@@ -48,6 +48,28 @@ console.log(footballClubs);
 console.log(programmingLanguages);
 console.log(trecks);
 
+const footballClubs = ["Barcelona", "Barcelona", "Barcelona", "always Barcelona"];
+const programmingLanguages = ["JavaScript", "HTML", "CSS", "React"]
+const trecks = ["Annapurna", "Rupin pass", "Hampta pass"]
+
+console.log(footballClubs);
+console.log(programmingLanguages);
+console.log(trecks);
+
+const footballClubs = ["Barcelona", "Barcelona", "Barcelona", "always Barcelona"];
+const programmingLanguages = ["JavaScript", "HTML", "CSS", "React"]
+const trecks = ["Annapurna", "Rupin pass", "Hampta pass"]
+
+console.log(footballClubs);
+console.log(programmingLanguages);
+console.log(trecks);const footballClubs = ["Barcelona", "Barcelona", "Barcelona", "always Barcelona"];
+const programmingLanguages = ["JavaScript", "HTML", "CSS", "React"]
+const trecks = ["Annapurna", "Rupin pass", "Hampta pass"]
+
+console.log(footballClubs);
+console.log(programmingLanguages);
+console.log(trecks);
+
 // 📚 Topic 2: Array Indexing
 
 // This is where arrays become useful.

@@ -17,7 +17,6 @@ const students = ["Ashish", "Komal", "Rahul", "Priya"];
 Now one variable stores many values.*/
 
 // arrays can store anything
-
 const furits = ["KOMAL", "mango", "watermelon", "strawberrys"];
 const numbera = [8448110734];
 const answers = [true, false, true];
@@ -47,7 +46,7 @@ const trecks = ["Annapurna", "Rupin pass", "Hampta pass"]
 console.log(footballClubs);
 console.log(programmingLanguages);
 console.log(trecks);
-console.log(footballClubs[3]); // this is what we call Array Indexing 
+console.log(footballClubs[3]);// this is what we call Array Indexing 
 
 
 // 📚 Topic 2: Array Indexing
@@ -248,5 +247,5 @@ movies[2]
 
 Batman */
 
-
-
+let array = [1,3,2,4]
+console.log(array[0],array[2],array[1],array[3]);

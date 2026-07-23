@@ -247,5 +247,15 @@ movies[2]
 
 Batman */
 
-let array = [1,3,2,4]
-console.log(array[0],array[2],array[1],array[3]);
+
+//  TOPIC ----->>>>>  push()
+// Definition 
+// push() adds one or more elements to the END of an array.
+// array.push(value);
+
+
+const ffurits = ["Mango","watermelon"];
+ffurits.push("aaple");
+ffurits.pop("apple")
+console.log(ffurits)
+

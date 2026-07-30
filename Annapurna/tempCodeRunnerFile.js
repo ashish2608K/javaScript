@@ -38,8 +38,3 @@ const trek = {
 }
 
 console.log(trek);
-console.log(trek.name,trek.Country);
-console.log(trek.Country);
-console.log(trek.daysToReach);
-
-

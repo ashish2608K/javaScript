@@ -43,3 +43,68 @@ console.log(trek.Country);
 console.log(trek.daysToReach);
 
 
+const laptopSpecs = {
+    brand: "Hp",
+    model: "this laptop have no name it come from future😎",
+    ram: "999+GB",
+    price: "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000$"
+}
+
+
+console.log(laptopSpecs);
+laptopSpecs.ram = "9999+GB";
+laptopSpecs.price = "100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000$"
+console.log(laptopSpecs);
+
+
+const soldier = {
+    name:"ashish",
+    unit:  "9 PARA SF",
+    rank: "Lieutenant"
+}
+
+soldier.experience = 5;
+soldier.weapon = "Tavor X95";
+
+
+console.log(soldier);
+
+
+const footballPlayer = {
+    name: "Pedri",
+    club: "Barcelona",
+    jerseyNumber: 8,
+    injured: false
+};
+
+console.log(footballPlayer);
+delete footballPlayer.injured;
+console.log(footballPlayer);
+
+
+const treksIlove = [
+    {
+        name:"Annapurna",
+        Country:"Nepal",
+        days:"14-15"
+    },
+
+    {
+        name:"Hampta pass",
+        Country:"Himachal Pradesh",
+        days:"1 week"
+    },
+
+    {
+        name:"Rupin pass",
+        Country:"Uttrakhand-Himachal Pradesh",
+        days:"1 week"
+    }
+]
+
+console.log(treksIlove);
+console.log(treksIlove[0].name);
+console.log(treksIlove[1].Country);
+console.log(treksIlove[2].days);
+
+

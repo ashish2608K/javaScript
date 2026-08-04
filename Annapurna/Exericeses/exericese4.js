@@ -38,12 +38,43 @@ Print only the second project.
 Print only the last project using .length instead of writing its index.
 */
 
-const projects = ["Bakery Website","Gelato Lane","Study Hub"];
-projects[2]="Restaurant Website";
-projects.push("Fitness Landing Page");
-projects.pop("Fitness Landing Page")
-console.log("Total Projects: ",projects.length);
-console.log("Frist Projects: ",projects[0]);
-console.log("Last Name: ",projects[2]);
-console.log(projects);
+// const projects = ["Bakery Website","Gelato Lane","Study Hub"];
+// projects[2]="Restaurant Website";
+// projects.push("Fitness Landing Page");
+// projects.pop("Fitness Landing Page")
+// console.log("Total Projects: ",projects.length);
+// console.log("Frist Projects: ",projects[0]);
+// console.log("Last Name: ",projects[2]);
+// console.log(projects);
+
+
+
+const lyrics = [
+    "I miss that kind of misery",
+    "The kind where you are nice to me",
+    "But only in the evening",
+    "So I ask, am I just dreaming?..."
+];
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function typeLine(line) {
+    for (const letter of line) {
+        process.stdout.write(letter);
+        await sleep(60); // typing speed
+    }
+
+    process.stdout.write("\n");
+}
+
+async function playLyrics() {
+    for (const line of lyrics) {
+        await typeLine(line);
+        await sleep(1000); // wait before next line
+    }
+}
+
+playLyrics();
 

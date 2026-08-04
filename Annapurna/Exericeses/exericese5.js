@@ -74,19 +74,66 @@ Example:
 
 Selected Candidates
 
+Komal
 Ashish
-Rohan
-Vikram
+
 
 -----------------------------------------------------
 
 Rules
 
 ❌ Don't Google.
-
 ❌ Don't ask me for syntax.
 
 ✅ Think.
 
 If you get stuck for 20 minutes, then ask me for ONE hint only.
 */
+
+const candidate = [
+    {
+        name: "Ashish",
+        age: 20,
+        runningTime: 14,
+        medicalFit: true
+    },
+    {
+        name: "komu",
+        age: 21,
+        runningTime: 10,
+        medicalFit: true
+    },
+        {
+        name: "spiderMan",
+        age: 21,
+        runningTime: 10,
+        medicalFit: true
+    },
+        {
+        name: "IronMan",
+        age: 30,
+        runningTime: 10,
+        medicalFit: true
+    },
+        {
+        name: "Captain America",
+        age: 21,
+        runningTime: 10,
+        medicalFit: true
+    }
+]
+
+for (let i = 0; i < candidate.length; i++) {
+    const c = candidate[i];
+    if (c.age >= 18 && c.age <= 23 && c.runningTime <= 15 && c.medicalFit === true) {
+        console.log(`-------------------------`);
+        console.log(`Candidate: ${c.name}`);
+        console.log(`Status: Selected`);
+        console.log(`-------------------------`);
+    } else {
+        console.log(`-------------------------`);
+        console.log(`Candidate: ${c.name}`);
+        console.log(`Status: Rejected`);
+        console.log(`-------------------------`);
+    }
+}

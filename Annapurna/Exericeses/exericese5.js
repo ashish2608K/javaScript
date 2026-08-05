@@ -81,12 +81,9 @@ Ashish
 -----------------------------------------------------
 
 Rules
-
 ❌ Don't Google.
 ❌ Don't ask me for syntax.
-
 ✅ Think.
-
 If you get stuck for 20 minutes, then ask me for ONE hint only.
 */
 
@@ -136,4 +133,21 @@ for (let i = 0; i < candidate.length; i++) {
         console.log(`Status: Rejected`);
         console.log(`-------------------------`);
     }
+
+    console.log(`Total Candidates: ${candidate.length}`);
+    console.log(`Selected candidates: ${candidate.length}`);
+
+}
+
+
+const hehe = {
+    name: "Ashish",
+    age: 20,
+    runningTime: 14,
+    medicalFit: true,
+
+  function haha(){
+    
+  }
+    
 }

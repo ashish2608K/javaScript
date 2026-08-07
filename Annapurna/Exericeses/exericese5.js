@@ -136,18 +136,7 @@ for (let i = 0; i < candidate.length; i++) {
 
     console.log(`Total Candidates: ${candidate.length}`);
     console.log(`Selected candidates: ${candidate.length}`);
-
 }
 
 
-const hehe = {
-    name: "Ashish",
-    age: 20,
-    runningTime: 14,
-    medicalFit: true,
 
-  function haha(){
-    
-  }
-    
-}

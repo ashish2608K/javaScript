@@ -72,3 +72,10 @@ const projects = [
 for(let i=0; i < projects.length; i++){
     console.log("Project"+(i+1)+": "+projects[i]);
 }
+
+
+
+
+for (let i = 0; i <=100; i++){
+    console.log("this number is",i);
+}

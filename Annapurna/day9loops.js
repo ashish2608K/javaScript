@@ -56,26 +56,75 @@ Repeat the push-up 20 times.
 That's exactly what a loop does. 
 */
 
-const treks = ["Annapurna","hampta pass","rupin pass","har ki dun"];
+// const treks = ["Annapurna","hampta pass","rupin pass","har ki dun"];
 
-for(let i = 3; i < treks.length; i++){
-    console.log(treks[i]);
-}
+// for(let i = 3; i < treks.length; i++){
+//     console.log(treks[i]);
+// }
 
-const projects = [
-    "Desktop Pet",
-    "Pixel Art Website",
-    "A Game using Javascript",
-    "something unbleivable"
+// const projects = [
+//     "Desktop Pet",
+//     "Pixel Art Website",
+//     "A Game using Javascript",
+//     "something unbleivable"
+// ]
+
+// for(let i=0; i < projects.length; i++){
+//     console.log("Project"+(i+1)+": "+projects[i]);
+// }
+
+
+const webSerices = [
+    {
+        name: "Dexter",
+        favouriteCharacter: "Dexter",
+        list: "TOP 5"
+    },
+
+    {
+        name: "Breaking Bad",
+        favouriteCharacter: "Walter White",
+        list: "TOP 5"
+
+    },
+
+    {
+        name: "Better Call Soul",
+        favouriteCharacter: "Soul Godman",
+        list: "TOP 10"
+    },
+
+    {
+        name: "The Walking Dead",
+        favouriteCharacter: "Rick,Shane and daryl",
+        list: "TOP 10"
+    }
 ]
 
-for(let i=0; i < projects.length; i++){
-    console.log("Project"+(i+1)+": "+projects[i]);
+
+function youGoDdamanRight() {
+    for (let i = 0; i < webSerices.length; i++) {
+        const w = webSerices[i];
+        console.log("My Favorite Web Series: " + w.name);
+
+        
+    if(w.list=="TOP 5"){
+            console.log(w.list)
+        }
+    }
+
 }
 
+youGoDdamanRight();
 
 
 
-for (let i = 0; i <=100; i++){
-    console.log("this number is",i);
-}
+// FILTER()
+
+const numbers = [10, 25, 30, 7, 45, 12, 50];
+const result = numbers.filter [25,30,45,50]
+console.log(numbers);
+
+
+
+

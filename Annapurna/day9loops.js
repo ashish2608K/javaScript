@@ -107,8 +107,8 @@ function youGoDdamanRight() {
         const w = webSerices[i];
         console.log("My Favorite Web Series: " + w.name);
 
-        
-    if(w.list=="TOP 5"){
+
+        if (w.list == "TOP 5") {
             console.log(w.list)
         }
     }
@@ -119,11 +119,90 @@ youGoDdamanRight();
 
 
 
-// FILTER()
+// FILTER() 🧠 Remember array.filter(item => condition)
 
-const numbers = [10, 25, 30, 7, 45, 12, 50];
-const result = numbers.filter [25,30,45,50]
-console.log(numbers);
+const ages = [12, 18, 25, 16, 30, 14, 22];
+const result = ages.filter(ages => ages >= 18);
+console.log(result);
+
+const products = [
+    { name: "Keyboard", price: 2500 },
+    { name: "Mouse", price: 800 },
+    { name: "Monitor", price: 15000 },
+    { name: "Headphones", price: 3000 }
+];
+
+const expensiveProducts = products.filter(products => products.price >= 3000)
+console.log(expensiveProducts);
+
+/* 
+Next, we'll learn find().
+
+The difference is very important:
+
+filter() → give me ALL matching items
+find()   → give me the FIRST matching item
+
+For example:
+
+filter → "Give me all products over ₹3000"
+find   → "Find me the product named Monitor"
+*/
+
+// filter() → select items
+// find()   → find ONE item
+// map()    → transform EVERY item
+
+// find()
+
+const players = [
+    {
+        name: "Pedri",
+        club: "Barcelona",
+        number: 8
+    },
+    {
+        name: "Yamal",
+        club: "Barcelona",
+        number: 19
+    },
+    {
+        name: "Raphinha",
+        club: "Barcelona",
+        number: 11
+    },
+    {
+        name: "Haaland",
+        club: "Manchester City",
+        number: 9
+    }
+];
+
+// find()
+const jerseyNumber = players.find(players => players.number === 9);
+console.log(jerseyNumber.name);
+console.log(jerseyNumber.number);
+
+// map()
+const playersName = players.map(player => player.name + " plays for " + player.club);
+console.log(playersName);
+
+const computerProducts = [
+    { name: "Keyboard", price: 2500 },
+    { name: "Mouse", price: 800 },
+    { name: "Monitor", price: 15000 },
+    { name: "Headphones", price: 3000 }
+];
+
+const discountedProducts = computerProducts.map(product => ({
+    name: product.name,
+    price: product.price,
+    discountedPrice: product.price - (product.price * 0.10)
+}));
+
+console.log(discountedProducts);
+
+
 
 
 

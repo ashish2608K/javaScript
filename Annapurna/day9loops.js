@@ -206,4 +206,7 @@ console.log(discountedProducts);
 
 
 
+for ( let i = 1; i <=3000; i++ ){
+    console.log("I love you komu ",i);
+}
 

@@ -128,7 +128,7 @@ console.log(result);
 const products = [
     { name: "Keyboard", price: 2500 },
     { name: "Mouse", price: 800 },
-    { name: "Monitor", price: 15000 },
+    { name: "Monitor", price: 150400 },
     { name: "Headphones", price: 3000 }
 ];
 

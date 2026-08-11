@@ -61,4 +61,12 @@ const heading = document.querySelector(".title");
 Or an element:
 
 const heading = document.querySelector("h1");
+
+
+ALSO HERE WE USE TEXTCONTENT TO CHANGE THE TXT FROM HTML 
+EXAMPLE ->
+const me = document.querySelector(".me");
+me.textContent = "i want to trek a lot i want to see mountains , i want to live on mountains with myyy babydoll"
+console.log(me);
+
 */

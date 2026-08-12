@@ -1,6 +1,4 @@
-.body{
-    font-size: 30px;
-    color: black;
-    background-color: aquamarine;
-    padding: 40px;
+.dark_mode {
+    background-color: black;
+    color: white;
 }

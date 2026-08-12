@@ -1,5 +1,8 @@
 .dark_mode {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.349);
     color: white;
     cursor: pointer;
+    padding: 20px;
+    border-radius: 20px; ;
+    border: none;
 }

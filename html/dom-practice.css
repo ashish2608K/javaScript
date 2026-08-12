@@ -1,4 +1,5 @@
 .dark_mode {
     background-color: black;
     color: white;
+    cursor: pointer;
 }

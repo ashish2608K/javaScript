@@ -1,3 +1,8 @@
+.nav{
+    display: flex;
+    
+}
+
 .dark_mode {
     background-color: rgba(0, 0, 0, 0.349);
     color: white;

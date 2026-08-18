@@ -10,3 +10,4 @@ const output = document.querySelector("#output");
 input.addEventListener("input", () => {
     output.textContent = input.value;
 });
+

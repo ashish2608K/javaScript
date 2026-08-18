@@ -11,3 +11,11 @@
     border-radius:100%;
     border: none;
 }
+
+#nameInput{
+    padding: 25px 40px;
+    border-radius: 20px;
+    row-gap: 10px;
+}
+
+

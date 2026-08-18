@@ -10,5 +10,9 @@ input.addEventListener("input", () => {
     output.textContent = "my Favorite sweet is " + input.value;
 });
 
+const formSubmit = document.querySelector("#nameInput");
+formSubmit.addEventListener("submit", (event) => {
+    event.preventDefault();
+    console.log("Goallllllllllllll!!!!!!!!!!!!!!!!!!!!!!!!!!");
 
-
+})
